@@ -1,6 +1,6 @@
-# 如何找回Git删除的提交
+# Git教学：如何找回Git删除的提交
 
-仅仅是个演示如何找回Git删除的提交
+仅仅是个演示如何找回Git删除的提交，我并没有源码
 
 ## **中文：** 如何找回Git删除的提交
 
@@ -24,9 +24,9 @@
 
 4. 哈哈，现在你找回来了
 
-## **English:** Learn Git
+## **English:** Learn Git: Restore the commit which has already removed
 
-Get the NewEBuy code
+It's only a demo. I don't have the source code.
 
 1. Clone this repository. [origin url](https://gitlab.com/xd09/NewEBuy)
 
