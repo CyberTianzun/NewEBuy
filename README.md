@@ -8,10 +8,10 @@
 
 ## **中文：** 如何找回Git删除的提交
 
-1. Clone一下这个仓库，下面教你找回代码。啊，上个提交暴露我的id了，真是罪过。bitbucket上还有人克隆有代码仓库，不过需要注册一个bitbucket账号，免费的，而且网速比gitlab快多了。记得把下面{your_account}替换掉。
+1. Clone一下这个仓库，下面教你找回代码。
 
   ```
-  git clone https://{your_account}@bitbucket.org/liruqi/newebuy.git
+  git clone https://bitbucket.org/liruqi/newebuy.git
   ```
 
 2. 找一找哪一个是代码删除之前的提交
@@ -24,6 +24,7 @@
 
   ```
   git reset 45ac382f --hard
+  git clean
   ```
 
 4. 哈哈，现在你找回来了
@@ -35,7 +36,7 @@ It's only a demo. I don't have the source code.
 1. Clone this repository. [origin url](https://gitlab.com/xd09/NewEBuy)
 
   ```
-  git@gitlab.com:xd09/NewEBuy.git
+  git clone https://bitbucket.org/liruqi/newebuy.git
   ```
 
 2. Seek the commit before remove
@@ -48,6 +49,7 @@ It's only a demo. I don't have the source code.
 
   ```
   git reset 45ac382f --hard
+  git clean
   ```
 
 4. Now you get the origin code
